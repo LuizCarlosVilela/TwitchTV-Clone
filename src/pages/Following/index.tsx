@@ -6,6 +6,7 @@ import { Wrapper, Container, Main } from "./styles";
 import Header from "../../components/Header";
 import Heading from "../../components/Heading";
 import Title from "../../components/Title";
+import CategoryList from "../../components/CategoryList";
 
 interface Item {
   key: string;
@@ -25,7 +26,7 @@ const Following: React.FC = () => {
         render: () => <Title>followed Categories</Title>,
         isTitle: true,
       },
-      { key: "C1", render: () => <View /> },
+      { key: "C1", render: () => <CategoryList /> },
 
       {
         key: "LIVE_CHANNELS",
