@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import Heading from "../../components/Heading";
 import Title from "../../components/Title";
 import CategoryList from "../../components/CategoryList";
+import StreamList from "../../components/StreamList";
 
 interface Item {
   key: string;
@@ -33,7 +34,7 @@ const Following: React.FC = () => {
         render: () => <Title>Live Channels</Title>,
         isTitle: true,
       },
-      { key: "C2", render: () => <View /> },
+      { key: "C2", render: () => <StreamList /> },
 
       {
         key: "CONTINUE_WATCHING",

@@ -7,15 +7,16 @@ export const Container = styled.View`
   justify-content: space-between;
 
   padding-top: 14px;
+  padding-bottom: 10px;
   padding-right: 14px;
 `;
 
-export const Avatar = styled.TouchableOpacity`
-  background: ${colors.tag};
+export const Avatar = styled.ImageBackground`
+  /* background: ${colors.tag}; */
 
-  width: 32px;
-  height: 32px;
-  border-radius: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
 `;
 export const OnlineStatus = styled.View`
   background: ${colors.green};
