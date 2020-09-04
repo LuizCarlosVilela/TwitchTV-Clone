@@ -8,6 +8,7 @@ import Heading from "../../components/Heading";
 import Title from "../../components/Title";
 import CategoryList from "../../components/CategoryList";
 import StreamList from "../../components/StreamList";
+import ChannelList from "../../components/ChannelList";
 
 interface Item {
   key: string;
@@ -38,7 +39,7 @@ const Following: React.FC = () => {
 
       {
         key: "CONTINUE_WATCHING",
-        render: () => <Title>Contunie Watching</Title>,
+        render: () => <Title>Continue Watching</Title>,
         isTitle: true,
       },
       { key: "C3", render: () => <StreamList /> },
@@ -48,7 +49,7 @@ const Following: React.FC = () => {
         render: () => <Title>Offline Channels</Title>,
         isTitle: true,
       },
-      { key: "C4", render: () => <View /> },
+      { key: "C4", render: () => <ChannelList /> },
     ];
 
     const indices: number[] = [];
