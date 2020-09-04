@@ -1,9 +1,10 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { View, FlatList } from "react-native";
 
 import { Wrapper, Container, Main } from "./styles";
 
 import Header from "../../components/Header";
+import Heading from "../../components/Heading";
 
 interface Item {
   key: string;
@@ -12,11 +13,11 @@ interface Item {
 }
 
 const Following: React.FC = () => {
-  React.useMemo(() => {
+  const { data, indices } = React.useMemo(() => {
     const items: Item[] = [
       {
         key: "PAGE_HEADING",
-        render: () => <View />,
+        render: () => <Heading>Following</Heading>,
       },
       {
         key: "FOLLOWED_CATEGORIES",
@@ -62,7 +63,16 @@ const Following: React.FC = () => {
       <Container>
         <Header />
 
-        <Main />
+        <Main>
+          <FlatList<Item>
+            data={data}
+            renderItem={({ item }) => item.render()}
+            keyExtractor={(item) => item.key}
+            stickyHeaderIndices={indices}
+            onRefresh={() => {}}
+            refreshing={false}
+          />
+        </Main>
       </Container>
     </Wrapper>
   );
