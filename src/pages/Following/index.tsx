@@ -41,7 +41,7 @@ const Following: React.FC = () => {
         render: () => <Title>Contunie Watching</Title>,
         isTitle: true,
       },
-      { key: "C3", render: () => <View /> },
+      { key: "C3", render: () => <StreamList /> },
 
       {
         key: "OFFLINE_CHANNELS",
