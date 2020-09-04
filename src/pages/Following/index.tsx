@@ -46,6 +46,15 @@ const Following: React.FC = () => {
       },
       { key: "C4", render: () => <View /> },
     ];
+
+    const indices: number[] = [];
+
+    items.forEach((item, index) => item.isTitle && indices.push(index));
+
+    return {
+      data: items,
+      indices,
+    };
   }, []);
 
   return (
