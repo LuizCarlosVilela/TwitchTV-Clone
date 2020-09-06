@@ -184,7 +184,6 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
 
 - [React + TypeScript Cheat Sheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
 - [Blog Rocketseat](https://blog.rocketseat.com.br/)
-- [ReactJS](https://reactjs.org/docs/getting-started.html) | [ReactJS pt-BR](https://pt-br.reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs/home.html)
 - [React Native](https://reactnative.dev/docs/getting-started)
 - [Expo](https://expo.io/learn)
@@ -228,43 +227,11 @@ Este repositório está licenciado pela **MIT LICENSE**. Para mais informações
 
 [node]: https://nodejs.org/en/
 
-[leaflet]: https://react-leaflet.js.org/en/
-
 [vscode]: https://code.visualstudio.com/
 
 [react_native]: http://www.reactnative.com/
 
-[stackedit]: https://stackedit.io
-
-[vscode_sqlite_extension]: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
-
-[markdown_emoji]: https://gist.github.com/rxaviers/7360908
-
-[commitlint]: https://github.com/conventional-changelog/commitlint
-
-[express]: https://expressjs.com/
-
-[cors]: https://expressjs.com/en/resources/middleware/cors.html
-
-[knex]: http://knexjs.org/
-
-[sqlite3]: https://github.com/mapbox/node-sqlite3
-
 [tsnode]: https://github.com/TypeStrong/ts-node
-
-[feather_icons]: https://feathericons.com/
-
-[insomnia]: https://insomnia.rest/
-
-[react_leaflet]: https://react-leaflet.js.org/
-
-[react_router_dom]: https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom
-
-[react_icons]: https://react-icons.github.io/react-icons/
-
-[axios]: https://github.com/axios/axios
-
-[dotenv]: https://github.com/motdotla/dotenv
 
 [expo]: https://expo.io/
 
@@ -272,27 +239,9 @@ Este repositório está licenciado pela **MIT LICENSE**. Para mais informações
 
 [react_navigation]: https://reactnavigation.org/
 
-[expo_constants]: https://docs.expo.io/versions/latest/sdk/constants/
-
 [react_native_svg]: https://github.com/react-native-community/react-native-svg
 
-[expo_location]: https://docs.expo.io/versions/latest/sdk/location/
-
 [expo_mail_composer]: https://docs.expo.io/versions/latest/sdk/mail-composer/
-
-[font_archivo]: https://fonts.google.com/specimen/Archivo
-
-[font_poopins]: https://fonts.google.com/specimen/Poppins
-
-[font_awesome]: https://fontawesome.com/
-
-[multer]: https://github.com/expressjs/multer
-
-[celebrate]: https://github.com/arb/celebrate
-
-[joi]: https://github.com/hapijs/joi
-
-[react_dropzone]: https://github.com/react-dropzone/react-dropzone
 
 [asdf]: https://github.com/asdf-vm/asdf
 
