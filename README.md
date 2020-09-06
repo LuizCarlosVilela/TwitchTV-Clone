@@ -143,23 +143,18 @@ Se tiver algum problema com as fontes, utilize o comando:
 $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
 ```
 
+
 ## ***:star2: AGRADECIMENTOS***
 
 <div align=center>
 
 <table style="width:100%">
   <tr align=center>
-    <th><strong>Next Level Week</strong></th>
     <th><strong>Rocketseat</strong></th>
     <th><strong>diego3g</strong></th>
-    <th><strong>maykbrito</strong></th>
+    <th><strong>guilhermerodz</strong></th>
   </tr>
   <tr align=center>
-    <td>
-      <a href="https://nextlevelweek.com/">
-        <img width="200" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a15e5ee3-7ba9-4aae-ad19-bd86929051f1/download.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200808T220334Z&X-Amz-Expires=86400&X-Amz-Signature=7a15de22d455cd3d55bcb53c74e72e9e592c9bac6ac6ba2546c3b3bcaa27c1fe&X-Amz-SignedHeaders=host">
-      </a>
-    </td>
     <td>
       <a href="https://rocketseat.com.br/">
         <img width="200" height="180" src="https://user-images.githubusercontent.com/38081852/83981650-1e2e6680-a8f6-11ea-9f42-6df8fe809e4b.png">
@@ -172,7 +167,7 @@ $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
     </td>
     <td>
       <a href="https://github.com/maykbrito">
-        <img width="200" height="180" src="https://user-images.githubusercontent.com/38081852/83981753-1de29b00-a8f7-11ea-93cf-23d2ff65fa5c.png">
+        <img width="200" height="180" src="https://avatars0.githubusercontent.com/u/10366880?s=460&u=ae99daa8dbb052dfcd0048862ab87007f677e6ed&v=4">
       </a>
     </td>
   </tr>
