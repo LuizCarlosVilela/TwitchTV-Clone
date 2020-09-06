@@ -25,7 +25,9 @@ export const Avatar = styled.Image`
   border-radius: 24px;
 `;
 
-export const Column = styled.View``;
+export const Column = styled.View`
+  padding-left: 10px;
+`;
 
 export const Username = styled.Text`
   color: ${colors.black};
@@ -41,4 +43,10 @@ export const Info = styled.Text`
 
 export const RightSide = styled.View``;
 
-export const WhiteCircle = styled.View``;
+export const WhiteCircle = styled.View`
+  background: ${colors.black};
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  opacity: 0.85;
+`;
