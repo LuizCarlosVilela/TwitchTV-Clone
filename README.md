@@ -23,7 +23,7 @@
 <h3 align=center>
   
 :books:
-***TwitchTv-Clone*** é um projeto para replicar a interface do aplicativo Twitch.Tv desenvolvido na **(UI Clone)** da **[Rocketseat][rocketseat_site]** utilizando as tecnologias ***TypeScript, Node, React, React-Native e Styled-Components***
+***TwitchTv-Clone*** é um projeto para replicar a interface do aplicativo Twitch.Tv desenvolvido na **(UI Clone)** da **[Rocketseat][rocketseat_site]** utilizando as tecnologias ***TypeScript, Node, React-Native e Styled-Components***
 
 </h3>
 
