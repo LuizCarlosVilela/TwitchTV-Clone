@@ -48,8 +48,12 @@
 </table>
 </div>
 
-<br />
-
+<h2 align=center>
+  <i>Navegação 🎬</i>
+ </h2>
+<div align=center >  
+  <img width="400" src="assets/img/Twitch.gif" alt="Twitch" >
+</div>
 
 ## ***:rocket: OBJETIVO***
 
@@ -71,7 +75,7 @@ O projeto tem como finalidade desenvolver uma aplicação mobile com a aparênci
 
 ### ***Utilitários***
 
-- Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
+- Editor: **[Visual Studio Code][vscode]**;
 
 ## ***:wine_glass: COMO UTILIZAR***
 
