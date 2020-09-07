@@ -2,12 +2,12 @@
 # ***Proffy App Mobile :iphone:***
 
 <h1 align=center>
-  <img src="assets/img/Banner.PNG" alt="Proffy Banner"/>
+  <img width="500" src="assets/img/Banner.png" alt="Twitch.tv Banner"/>
 </h1>
 
 <div align=center>
 
-![MIT][mit] ![Node_Badge][node_version_badge] ![Npm_Badge][npm_version_badge] ![React_Badge][web_react_badge] ![React_Native_Badge][mobile_react-native_badge] ![NodeJS_Badge][server_nodejs_badge] [![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white&labelColor=007ACC)](https://github.com/ellerbrock/typescript-badges/)
+![MIT][mit] ![Node_Badge][node_version_badge] ![Npm_Badge][npm_version_badge] ![React_Native_Badge][mobile_react-native_badge] ![NodeJS_Badge][server_nodejs_badge] [![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?logo=typescript&logoColor=white&labelColor=007ACC)](https://github.com/ellerbrock/typescript-badges/)
   <a href="https://rocketseat.com.br" target="_blank">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
   </a>
@@ -34,17 +34,16 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 <div align=center >  
   <table align=center border="0">
   <tr align=center>
-    <th ><strong> <i> Home </i> </strong></th>
-    <th ><strong> <i> Study </i> </strong></th>
-    <th ><strong> <i> Teacher </i> </strong></th>
+    <th ><strong> <i> Following </i> </strong></th>
+    <th ><strong> <i> ComingSoon </i> </strong></th>
   </tr>
                                 
   <tr align=center >
     <td >
-       <img width="400" src="assets/img/Landing.png">
+       <img width="400" src="assets/img/Home.png" alt="Following" >
     </td>
-    <td > <img width="400" src="assets/img/Teacher.png"> </td>
-    <td> <img width="400" src="assets/img/TeacherList.png"> </td>
+    <td > <img width="400" src="assets/img/Secund.png" alt="ComingSoon"> </td>
+
   </tr>
 </table>
 </div>
