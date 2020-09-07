@@ -23,12 +23,12 @@
 <h3 align=center>
   
 :books:
-Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2.0)** da **[Rocketseat][rocketseat_site]** utilizando as tecnologias ***TypeScript, Node, React e React Native***.
+***TwitchTv-Clone*** é um projeto para replicar a interface do aplicativo twitch.tv desenvolvido na **(UI Clone)** da **[Rocketseat][rocketseat_site]** utilizando as tecnologias ***TypeScript, Node, React, React-Native e Styled-Components***
 
 </h3>
 
 <h2 align=center>
-  <i>Telas Mobile </i> :iphone:
+  <i>Telas </i> :iphone:
 </h2>
 
 <div align=center >  
@@ -67,9 +67,8 @@ O projeto tem como finalidade desenvolver uma aplicação mobile com a aparênci
   - ***[React Native SVG][react_native_svg]***
   - ***[Axios][axios]***
   
-  - ***[Firebase][firebase]***
 
-  Arquivo json do front-end mobile <kbd>[package.json](https://github.com/LuizCarlosVilela/clone-mercado-livre/blob/master/package.json)</kbd>
+  Arquivo json do front-end mobile <kbd>[package.json](https://github.com/LuizCarlosVilela/twitchtv-clone/blob/master/package.json)</kbd>
 
 ### ***Utilitários***
 
@@ -108,7 +107,7 @@ Exemplos:
 ```sh
 
 # Instalando as dependências do mobile:
-$ cd clone-mercado-livre
+$ cd twitchtv-clone
 $ npm install
 ```
 
@@ -124,12 +123,34 @@ $ npm run start
 ```
 
 Agora, abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode.
-
 ## ***:star2: AGRADECIMENTOS***
 
 <div align=center>
 
-<img src="https://hermes.digitalinnovation.one/site/images/cover_dio.jpg" width="500" alt="Logo Digital Innovation one"/>
+<table style="width:100%">
+  <tr align=center>
+    <th><strong>Rocketseat</strong></th>
+    <th><strong>diego3g</strong></th>
+    <th><strong>guilhermerodz</strong></th>
+  </tr>
+  <tr align=center>
+    <td>
+      <a href="https://rocketseat.com.br/">
+        <img width="200" height="180" src="https://user-images.githubusercontent.com/38081852/83981650-1e2e6680-a8f6-11ea-9f42-6df8fe809e4b.png">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/diego3g">
+        <img width="200" height="180" src="https://user-images.githubusercontent.com/38081852/83981712-b7f61380-a8f6-11ea-9099-bd3677e97e39.jpg">
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/guilhermerodz">
+        <img width="200" height="180" src="https://avatars0.githubusercontent.com/u/10366880?s=460&u=ae99daa8dbb052dfcd0048862ab87007f677e6ed&v=4">
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
