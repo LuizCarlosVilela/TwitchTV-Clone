@@ -23,7 +23,7 @@
 <h3 align=center>
   
 :books:
-***TwitchTv-Clone*** é um projeto para replicar a interface do aplicativo twitch.tv desenvolvido na **(UI Clone)** da **[Rocketseat][rocketseat_site]** utilizando as tecnologias ***TypeScript, Node, React, React-Native e Styled-Components***
+***TwitchTv-Clone*** é um projeto para replicar a interface do aplicativo Twitch.Tv desenvolvido na **(UI Clone)** da **[Rocketseat][rocketseat_site]** utilizando as tecnologias ***TypeScript, Node, React, React-Native e Styled-Components***
 
 </h3>
 
@@ -54,7 +54,7 @@
 ## ***:rocket: OBJETIVO***
 
 <p align=justify> 
-O projeto tem como finalidade desenvolver uma aplicação mobile com a aparência igual ao aplicativo <strong>Mercado Livre</strong> onde o login/cadastro são feitos com o a API do <strong>firebase</strong> com contas do google/facebook. Ao decorrer do projeto tenho como objetivo também desenvolver conhecimento em <strong>React</strong> e <strong>TypeScript</strong>.
+O projeto tem como finalidade desenvolver uma aplicação mobile com a aparência igual ao aplicativo de lives <strong>Twitch.Tv</strong>. Ao decorrer do projeto tenho como objetivo também desenvolver conhecimento em <strong>React-Native</strong>, <strong>TypeScript</strong> e <strong> Styled-Components</strong>.
 </p>
 
 ## ***:computer: TECNOLOGIAS***
@@ -65,7 +65,6 @@ O projeto tem como finalidade desenvolver uma aplicação mobile com a aparênci
   - ***[React Navigation][react_navigation]***
   - ***[Expo Constants][expo_constants]***
   - ***[React Native SVG][react_native_svg]***
-  - ***[Axios][axios]***
   
 
   Arquivo json do front-end mobile <kbd>[package.json](https://github.com/LuizCarlosVilela/twitchtv-clone/blob/master/package.json)</kbd>
@@ -161,7 +160,6 @@ Agora, abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode.
 - ***[React Native](https://reactnative.dev/docs/getting-started)***
 - ***[Expo](https://expo.io/learn)***
 - ***[Node](https://nodejs.org/en/)***
-- ***[Firebase][firebase]***
 
 ## ***:page_with_curl: LICENÇA***
 
