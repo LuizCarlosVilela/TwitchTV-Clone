@@ -1,5 +1,5 @@
 
-# ***App Twitch.Tv :iphone:***
+# ***App → Twitch.Tv :iphone:***
 
 <h1 align=center>
   <img width="500" src="assets/img/Banner.png" alt="Twitch.tv Banner"/>
