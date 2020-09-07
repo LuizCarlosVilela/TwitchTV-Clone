@@ -1,5 +1,5 @@
 
-# ***Proffy App Mobile :iphone:***
+# ***App Twitch.Tv :iphone:***
 
 <h1 align=center>
   <img width="500" src="assets/img/Banner.png" alt="Twitch.tv Banner"/>
@@ -50,34 +50,30 @@ Proffy é um projeto **Open Source** desenvolvido na semana **Next Level Week (2
 
 <br />
 
+
 ## ***:rocket: OBJETIVO***
 
 <p align=justify> 
-O projeto tem como finalidade <strong>estabelecer uma conexão</strong> entre os <strong>professores</strong> (Proffys) e os <strong>alunos</strong> que desejam um professor com qualificação para dar orientações e aulas sobre determinada matéria. Solucionando então um <strong>problema de comunicação</strong> entre <strong>professores</strong> que queiram dar aulas, e <strong>alunos</strong> que desejam um professor para orientar nos <strong>estudos em diversas áreas</strong>.
+O projeto tem como finalidade desenvolver uma aplicação mobile com a aparência igual ao aplicativo <strong>Mercado Livre</strong> onde o login/cadastro são feitos com o a API do <strong>firebase</strong> com contas do google/facebook. Ao decorrer do projeto tenho como objetivo também desenvolver conhecimento em <strong>React</strong> e <strong>TypeScript</strong>.
 </p>
 
 ## ***:computer: TECNOLOGIAS***
 
 #### ***:iphone: Mobile*** ([React Native][react_native] + [TypeScript][typescript])
+  - ***[Expo][expo]***
+  - ***[Expo Google Fonts][expo_google_fonts]***
+  - ***[React Navigation][react_navigation]***
+  - ***[Expo Constants][expo_constants]***
+  - ***[React Native SVG][react_native_svg]***
+  - ***[Axios][axios]***
+  
+  - ***[Firebase][firebase]***
 
-  - **[Expo][expo]**
-  - **[Expo Google Fonts][expo_google_fonts]**
-  - **[React Navigation][react_navigation]**
-  - **[Expo Constants][expo_constants]**
-  - **[React Native SVG][react_native_svg]**
-  - **[Axios][axios]**
-
-  Arquivo json do front-end mobile <kbd>[package.json](https://github.com/LuizCarlosVilela/nlw-2-mobile/blob/master/package.json)</kbd>
+  Arquivo json do front-end mobile <kbd>[package.json](https://github.com/LuizCarlosVilela/clone-mercado-livre/blob/master/package.json)</kbd>
 
 ### ***Utilitários***
 
-- Protótipo: **[Figma](https://www.figma.com/)** &rarr; **<kbd>[Protótipo (Proffy)](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web/duplicate)</kbd>**
 - Editor: **[Visual Studio Code][vscode]** &rarr; Extensions: **<kbd>[SQLite][vscode_sqlite_extension]</kbd>**
-- Markdown: **[StackEdit][stackedit]**, **<kbd>[Markdown Emoji][markdown_emoji]</kbd>**
-- Commit Conventional: **[Commitlint][commitlint]**
-- Teste de API: **[Insomnia][insomnia]**
-- Ícones: **[Feather Icons][feather_icons]**, **[Font Awesome][font_awesome]**
-- Fontes: **[Archivo][font_archivo]**, **[Poopins][font_poopins]**
 
 ## ***:wine_glass: COMO UTILIZAR***
 
@@ -98,7 +94,7 @@ $ npm install -g expo-cli
 
 ### ***Expo (React Native)***
 
-Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits), no diretório do **server**, no diretório do **website** e no diretório **mobile**. Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
+Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits). Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
 ```sh
 $ npm install
@@ -110,90 +106,47 @@ $ yarn
 Exemplos:
 
 ```sh
-# Instalando as dependências do commitlint:
-$ cd ./proffy
-$ npm install
 
 # Instalando as dependências do mobile:
-$ cd ./sources/mobile
+$ cd clone-mercado-livre
 $ npm install
 ```
 
-Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[server](https://github.com/LuizCarlosVilela/nlw-2-backend/blob/master/package.json)</kbd>, <kbd>[website](https://github.com/LuizCarlosVilela/nlw-2-web/blob/master/package.json)</kbd> e <kbd>[mobile](https://github.com/LuizCarlosVilela/nlw-2-mobile/blob/master/package.json)</kbd>.
+Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[mobile](https://github.com/LuizCarlosVilela/clone-mercado-livre/blob/master/package.json)</kbd>.
 
 ### ***Utilizando o Mobile***
 
 Instale o aplicativo <kbd>[Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en)</kbd> no seu smartphone.
 
 ```sh
-# Abrindo o terminal no diretório do mobile:
-$ cd ./sources/mobile
-
 # Executando o mobile no modo de desenvolvimento:
 $ npm run start
 ```
 
 Agora, abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode.
 
-> Se tiver algum problema para executar o aplicativo nesse modo, tente desabilitar o firewall da sua máquina.
-
-Se tiver algum problema com as fontes, utilize o comando:
-```sh
-$ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poopins
-```
-
-
 ## ***:star2: AGRADECIMENTOS***
 
 <div align=center>
 
-<table style="width:100%">
-  <tr align=center>
-    <th><strong>Rocketseat</strong></th>
-    <th><strong>diego3g</strong></th>
-    <th><strong>guilhermerodz</strong></th>
-  </tr>
-  <tr align=center>
-    <td>
-      <a href="https://rocketseat.com.br/">
-        <img width="200" height="180" src="https://user-images.githubusercontent.com/38081852/83981650-1e2e6680-a8f6-11ea-9f42-6df8fe809e4b.png">
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/diego3g">
-        <img width="200" height="180" src="https://user-images.githubusercontent.com/38081852/83981712-b7f61380-a8f6-11ea-9099-bd3677e97e39.jpg">
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/maykbrito">
-        <img width="200" height="180" src="https://avatars0.githubusercontent.com/u/10366880?s=460&u=ae99daa8dbb052dfcd0048862ab87007f677e6ed&v=4">
-      </a>
-    </td>
-  </tr>
-</table>
+<img src="https://hermes.digitalinnovation.one/site/images/cover_dio.jpg" width="500" alt="Logo Digital Innovation one"/>
 
 </div>
 
 ## ***:books: REFERÊNCIAS***
 
-- [React + TypeScript Cheat Sheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
-- [Blog Rocketseat](https://blog.rocketseat.com.br/)
-- [TypeScript](https://www.typescriptlang.org/docs/home.html)
-- [React Native](https://reactnative.dev/docs/getting-started)
-- [Expo](https://expo.io/learn)
-- [Node](https://nodejs.org/en/)
-- [Celebrate](https://github.com/arb/celebrate)
-- [Joi](https://hapi.dev/module/joi/)
+- ***[React + TypeScript Cheat Sheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)***
+- ***[TypeScript](https://www.typescriptlang.org/docs/home.html)***
+- ***[React Native](https://reactnative.dev/docs/getting-started)***
+- ***[Expo](https://expo.io/learn)***
+- ***[Node](https://nodejs.org/en/)***
+- ***[Firebase][firebase]***
 
 ## ***:page_with_curl: LICENÇA***
 
 Este repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
  <i> <h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/"> Luiz Carlos Vilela </a></h2> </i>
-
-<!-- Website Links -->
-
-[rocketseat_site]: https://rocketseat.com.br/
 
 <!-- Badges -->
 
@@ -215,28 +168,49 @@ Este repositório está licenciado pela **MIT LICENSE**. Para mais informações
 
 <!-- Techs -->
 
-[react]: https://reactjs.org/
-
 [typescript]: https://www.typescriptlang.org/
 
 [node]: https://nodejs.org/en/
+
+[leaflet]: https://react-leaflet.js.org/en/
 
 [vscode]: https://code.visualstudio.com/
 
 [react_native]: http://www.reactnative.com/
 
+[stackedit]: https://stackedit.io
+
+[vscode_sqlite_extension]: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
+
+[markdown_emoji]: https://gist.github.com/rxaviers/7360908
+
+[commitlint]: https://github.com/conventional-changelog/commitlint
+
 [tsnode]: https://github.com/TypeStrong/ts-node
 
+[feather_icons]: https://feathericons.com/
+
+[insomnia]: https://insomnia.rest/
+
+[react_leaflet]: https://react-leaflet.js.org/
+
+[react_icons]: https://react-icons.github.io/react-icons/
+
 [expo]: https://expo.io/
+
+[expo_constants]: https://docs.expo.io/versions/latest/sdk/constants/
+
+[react_native_svg]: https://github.com/react-native-community/react-native-svg
+
+[firebase]: https://firebase.google.com/docs/
+
+[asdf]: https://github.com/asdf-vm/asdf
+
+[yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
+
+[axios]: https://github.com/axios/axios
 
 [expo_google_fonts]: https://github.com/expo/google-fonts
 
 [react_navigation]: https://reactnavigation.org/
 
-[react_native_svg]: https://github.com/react-native-community/react-native-svg
-
-[expo_mail_composer]: https://docs.expo.io/versions/latest/sdk/mail-composer/
-
-[asdf]: https://github.com/asdf-vm/asdf
-
-[yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
