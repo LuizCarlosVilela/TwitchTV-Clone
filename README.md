@@ -94,7 +94,7 @@ Após ter o **Node** instalado, instale as dependências do **React e React Nati
 $ npm install -g expo-cli 
 ```
 
-### ***Expo (React Native)***
+### ***Expo ([React Native](https://reactnative.dev/docs/getting-started))***
 
 Instale as dependências contidas nos arquivos `package.json` que se encontram na raíz do repositório (para o gerenciamento de commits). Para instalar as dependências, basta abrir o terminal no diretório e digitar o comando:
 
