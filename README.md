@@ -168,6 +168,11 @@ Agora, abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode.
 Este repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
  <i> <h2 align="center">Feito com ❤️ por <a href="https://www.linkedin.com/in/luiz-carlos-vilela/"> Luiz Carlos Vilela </a></h2> </i>
+ 
+ 
+<!-- Website Links -->
+
+[rocketseat_site]: https://rocketseat.com.br/
 
 <!-- Badges -->
 
