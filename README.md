@@ -114,7 +114,7 @@ $ cd twitchtv-clone
 $ npm install
 ```
 
-Veja os arquivos **`package.json`** do <kbd>[commitlint](./package.json)</kbd>, <kbd>[mobile](https://github.com/LuizCarlosVilela/clone-mercado-livre/blob/master/package.json)</kbd>.
+Veja os arquivos **`package.json`** do <kbd>[Package.Json](./package.json)</kbd>.
 
 ### ***Utilizando o Mobile***
 
