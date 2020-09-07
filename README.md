@@ -159,7 +159,7 @@ Agora, abra o aplicativo do expo e no modo **LAN** faça o scan do QRCode.
 
 ## ***:books: REFERÊNCIAS***
 
-- ***[React + TypeScript Cheat Sheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)***
+- ***[React + TypeScript](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)***
 - ***[TypeScript](https://www.typescriptlang.org/docs/home.html)***
 - ***[React Native](https://reactnative.dev/docs/getting-started)***
 - ***[Expo](https://expo.io/learn)***
